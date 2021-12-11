@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "policies",
+  "info": {
+    "singularName": "policy",
+    "pluralName": "policies",
+    "displayName": "policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "policy_title": {
+      "type": "string"
+    },
+    "policy_content": {
+      "type": "richtext"
+    }
+  }
+}
